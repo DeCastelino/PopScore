@@ -1,199 +1,86 @@
 {
-    "page": 1,
-    "results": [
+    "adult": false,
+    "backdrop_path": "/1RDto0tLo8Fhq7OcwgDaM7nECb7.jpg",
+    "belongs_to_collection": null,
+    "budget": 159000000,
+    "genres": [
         {
-            "adult": false,
-            "backdrop_path": "/1RDto0tLo8Fhq7OcwgDaM7nECb7.jpg",
-            "genre_ids": [80, 18, 36],
-            "id": 398978,
-            "original_language": "en",
-            "original_title": "The Irishman",
-            "overview": "Pennsylvania, 1956. Frank Sheeran, a war veteran of Irish origin who works as a truck driver, accidentally meets mobster Russell Bufalino. Once Frank becomes his trusted man, Bufalino sends him to Chicago with the task of helping Jimmy Hoffa, a powerful union leader related to organized crime, with whom Frank will maintain a close friendship for nearly twenty years.",
-            "popularity": 31.728,
-            "poster_path": "/mbm8k3GFhXS0ROd9AD1gqYbIFbM.jpg",
-            "release_date": "2019-11-01",
-            "title": "The Irishman",
-            "video": false,
-            "vote_average": 7.6,
-            "vote_count": 6774
+            "id": 80,
+            "name": "Crime"
         },
         {
-            "adult": false,
-            "backdrop_path": "/2CuQSYhFwNIWPRswig3aYaZC3EX.jpg",
-            "genre_ids": [28, 80, 53, 18],
-            "id": 51209,
-            "original_language": "en",
-            "original_title": "Kill the Irishman",
-            "overview": "Over the summer of 1976, thirty-six bombs detonate in the heart of Cleveland while a turf war raged between Irish mobster Danny Greene and the Italian mafia. Based on a true story, Kill the Irishman chronicles Greene's heroic rise from a tough Cleveland neighborhood to become an enforcer in the local mob.",
-            "popularity": 11.582,
-            "poster_path": "/rbVcUa0xj2gHKgc32WrMlPTsjnG.jpg",
-            "release_date": "2011-03-10",
-            "title": "Kill the Irishman",
-            "video": false,
-            "vote_average": 6.8,
-            "vote_count": 620
+            "id": 18,
+            "name": "Drama"
         },
         {
-            "adult": false,
-            "backdrop_path": "/bumVsJP2qHFSx96JeOu3DvXTdxO.jpg",
-            "genre_ids": [99],
-            "id": 651724,
-            "original_language": "en",
-            "original_title": "The Irishman: In Conversation",
-            "overview": "Martin Scorsese, Robert De Niro, Joe Pesci, and Al Pacino in conversation about The Irishman.",
-            "popularity": 6.008,
-            "poster_path": "/vKcb894rQoFDcp3VRl3MWr0pxZ4.jpg",
-            "release_date": "2019-11-27",
-            "title": "The Irishman: In Conversation",
-            "video": false,
-            "vote_average": 7.5,
-            "vote_count": 107
-        },
-        {
-            "adult": false,
-            "backdrop_path": null,
-            "genre_ids": [],
-            "id": 1184044,
-            "original_language": "en",
-            "original_title": "One Fighting Irishman: Wayne M. Collins and the Tule Lake Segregation Center",
-            "overview": "One Fighting Irishman tells the story of San Francisco attorney Wayne M. Collins whose uncompromising defense of the Constitution drove him to spend twenty-three years representing over 5,000 of the most maligned Japanese Americans who renounced their American citizenship under duress while imprisoned at the Tule Lake Segregation Center during World War II.",
-            "popularity": 1.632,
-            "poster_path": null,
-            "release_date": "2023-10-28",
-            "title": "One Fighting Irishman: Wayne M. Collins and the Tule Lake Segregation Center",
-            "video": false,
-            "vote_average": 6,
-            "vote_count": 1
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/x5TEa8jBeTLciECoV6n8WRnIr4U.jpg",
-            "genre_ids": [99],
-            "id": 707828,
-            "original_language": "en",
-            "original_title": "The Collaboration Of A Lifetime: Scorsese’s Epic The Irishman",
-            "overview": "Join legendary director Martin Scorsese, and acting icons Robert De Niro, Joe Pesci, and Al Pacino as we go behind the scenes of their universally acclaimed movie.",
-            "popularity": 1.288,
-            "poster_path": "/zAOkZvaoNDANSt5rSWrF1KlZTOX.jpg",
-            "release_date": "2020-01-15",
-            "title": "The Collaboration Of A Lifetime: Scorsese’s Epic The Irishman",
-            "video": false,
-            "vote_average": 7,
-            "vote_count": 3
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/rfP2zusHx61dsuhusrJA0AdIqfy.jpg",
-            "genre_ids": [99],
-            "id": 86293,
-            "original_language": "en",
-            "original_title": "Danny Greene: The Rise and Fall of the Irishman",
-            "overview": "Exclusive interviews with Danny Greene's family, Federal Government Officials, Mafia associates and Cleveland Police Enforcement, with never seen before photos.",
-            "popularity": 1.965,
-            "poster_path": "/hOTvyjnyRSbU4wWKxgUMEK47VT3.jpg",
-            "release_date": "2011-04-08",
-            "title": "Danny Greene: The Rise and Fall of the Irishman",
-            "video": false,
-            "vote_average": 0,
-            "vote_count": 0
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/wTqytvXw55tO2r1YubuAn9qoKUc.jpg",
-            "genre_ids": [99],
-            "id": 768378,
-            "original_language": "en",
-            "original_title": "Making 'The Irishman'",
-            "overview": "Join legendary director Martin Scorsese, and acting icons Robert De Niro, Joe Pesci and Al Pacino going behind the scenes of their universally acclaimed movie.",
-            "popularity": 1.144,
-            "poster_path": "/ntDRKNqmD7NbdAL7yPjvVaqKAyt.jpg",
-            "release_date": "2020-11-24",
-            "title": "Making 'The Irishman'",
-            "video": false,
-            "vote_average": 7,
-            "vote_count": 4
-        },
-        {
-            "adult": false,
-            "backdrop_path": null,
-            "genre_ids": [],
-            "id": 255839,
-            "original_language": "en",
-            "original_title": "The Irishman",
-            "overview": "Paddy Doolan is a man who refuses to accept change. In a new century where the motor car is changing the way things are done, the stubborn Irishman, the last of the draught-horse teamsters, continues to haul timber the old way.",
-            "popularity": 0.531,
-            "poster_path": "/krkIjrPtQRodPIKxKLtWkY3DW9z.jpg",
-            "release_date": "1978-02-28",
-            "title": "The Irishman",
-            "video": false,
-            "vote_average": 0,
-            "vote_count": 0
-        },
-        {
-            "adult": false,
-            "backdrop_path": "/oItdKsSSd5O8qk2HwPhz33VUOCS.jpg",
-            "genre_ids": [18],
-            "id": 99595,
-            "original_language": "en",
-            "original_title": "The Flying Irishman",
-            "overview": "This is the story of the historic 1938 flight of Douglas 'Wrong Way' Corrigan. Mr. Corrigan starred in this film, which chronicled his infamous flight. On July 17, 1938, Mr. Corrigan loaded 320 gallons of gasoline (40 hours worth) into the tiny, single engine plane. While expressing his intent to fly west to Long Beach, CA, Mr. Corrigan flew out of Floyd Bennett Field heading east over the Atlantic. Instrumentation in the plane included two compasses (both malfunctioned) and a turn-and-bank indicator. The cabin door was held shut with baling wire. Nearly 29 hours later, he landed in Baldonnel near Dublin. He forever claimed to be surprised at arriving in Ireland rather than California. He returned to the US as a hero, with a ticker tape parade in New York and received numerous medals and awards.",
-            "popularity": 1.86,
-            "poster_path": "/a2quyujg0GeAL0P3Dhxc0tMDNnn.jpg",
-            "release_date": "1939-04-07",
-            "title": "The Flying Irishman",
-            "video": false,
-            "vote_average": 4.6,
-            "vote_count": 5
-        },
-        {
-            "adult": false,
-            "backdrop_path": null,
-            "genre_ids": [99],
-            "id": 1018801,
-            "original_language": "en",
-            "original_title": "Conor McGregor: The Irishman",
-            "overview": "The ultimate rags to riches story. Conor McGregor came from Crumlin Ireland, living off of welfare, to becoming the highest paid UFC fighter in history. A two division champion in the UFC. He has proven time and time again why people should not doubt him. Whether it’s fighting for UFC championships, taking on the greatest boxer of the modern era or running his own Whiskey brand, McGregor puts his heart and soul into it all.",
-            "popularity": 0.385,
-            "poster_path": "/8fTqwgwHDGTtfZCLxluIzJIpMT4.jpg",
-            "release_date": "2020-04-21",
-            "title": "Conor McGregor: The Irishman",
-            "video": false,
-            "vote_average": 7,
-            "vote_count": 1
-        },
-        {
-            "adult": false,
-            "backdrop_path": null,
-            "genre_ids": [99],
-            "id": 1086805,
-            "original_language": "en",
-            "original_title": "Liam Brady: The Irishman Abroad",
-            "overview": "On the 50th anniversary of Liam Brady signing schoolboy forms at Arsenal, covering the highs and lows of a life spent in the beautiful game.",
-            "popularity": 0.402,
-            "poster_path": "/iU8tVOyZSAuNJ57YYhCZGJZNBFP.jpg",
-            "release_date": "2023-02-13",
-            "title": "Liam Brady: The Irishman Abroad",
-            "video": false,
-            "vote_average": 0,
-            "vote_count": 0
-        },
-        {
-            "adult": false,
-            "backdrop_path": null,
-            "genre_ids": [36, 16],
-            "id": 1261078,
-            "original_language": "en",
-            "original_title": "The Irishman – Children of Gael",
-            "overview": "A Depression-era whiskey runner tells the harrowing tale of his ancestors’ arrival in Canada during the Great Potato Famine. Written and narrated by award-winning storyteller Mike Burns as part of the Water of Life film series.",
-            "popularity": 0.035,
-            "poster_path": null,
-            "release_date": "",
-            "title": "The Irishman – Children of Gael",
-            "video": false,
-            "vote_average": 7,
-            "vote_count": 1
+            "id": 36,
+            "name": "History"
         }
     ],
-    "total_pages": 1,
-    "total_results": 12
+    "homepage": "https://www.theirishman-movie.com",
+    "id": 398978,
+    "imdb_id": "tt1302006",
+    "origin_country": ["US"],
+    "original_language": "en",
+    "original_title": "The Irishman",
+    "overview": "Pennsylvania, 1956. Frank Sheeran, a war veteran of Irish origin who works as a truck driver, accidentally meets mobster Russell Bufalino. Once Frank becomes his trusted man, Bufalino sends him to Chicago with the task of helping Jimmy Hoffa, a powerful union leader related to organized crime, with whom Frank will maintain a close friendship for nearly twenty years.",
+    "popularity": 44.419,
+    "poster_path": "/mbm8k3GFhXS0ROd9AD1gqYbIFbM.jpg",
+    "production_companies": [
+        {
+            "id": 11391,
+            "logo_path": "/t6m0uRTzaFHCsvEpikENE0PWJGb.png",
+            "name": "Tribeca Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 23243,
+            "logo_path": "/cBPyrhXhGKzxUdL4Fkg801HZ4W.png",
+            "name": "Sikelia Productions",
+            "origin_country": "US"
+        },
+        {
+            "id": 8880,
+            "logo_path": "/fE7LBw7Jz8R29EABFGCvWNriZxN.png",
+            "name": "Winkler Films",
+            "origin_country": "US"
+        }
+    ],
+    "production_countries": [
+        {
+            "iso_3166_1": "US",
+            "name": "United States of America"
+        }
+    ],
+    "release_date": "2019-11-01",
+    "revenue": 968853,
+    "runtime": 209,
+    "spoken_languages": [
+        {
+            "english_name": "English",
+            "iso_639_1": "en",
+            "name": "English"
+        },
+        {
+            "english_name": "Italian",
+            "iso_639_1": "it",
+            "name": "Italiano"
+        },
+        {
+            "english_name": "Latin",
+            "iso_639_1": "la",
+            "name": "Latin"
+        },
+        {
+            "english_name": "Spanish",
+            "iso_639_1": "es",
+            "name": "Español"
+        }
+    ],
+    "status": "Released",
+    "tagline": "His story changed history",
+    "title": "The Irishman",
+    "video": false,
+    "vote_average": 7.603,
+    "vote_count": 6777
 }
