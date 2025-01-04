@@ -1,9 +1,10 @@
 import MainLayout from "./layouts/MainLayout";
+import Discover from "./components/Discover";
 
 const Home = () => {
   return (
     <MainLayout>
-      <p>This is part of the home menu</p>
+      <Discover />
     </MainLayout>
   );
 }
