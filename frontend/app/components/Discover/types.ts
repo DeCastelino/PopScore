@@ -31,7 +31,7 @@ export type TmdbTvResult = TmdbMediaResult & {
 export interface TmdbCollectionResult {
   id: number;
   media_type: "collection";
-  name: string;
+  title: string;
   original_title: string;
   adult: boolean;
   poster_path?: string;
