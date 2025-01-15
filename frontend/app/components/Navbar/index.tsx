@@ -21,7 +21,7 @@ const Navbar = () => {
         </div>
 
         {/* Middle: Navigation Links */}
-        <div className="sabsolute top-2.5 left-0 right-0 m-auto w-fit flex flex-col justify-between bg-orange-500 px-5 py-2 rounded-3xl tracking-wide italic z-10">
+        <div className="absolute top-2.5 left-0 right-0 m-auto w-fit flex flex-col justify-between bg-orange-500 px-5 py-2 rounded-3xl tracking-wide italic z-10">
           <div className="space-x-8">
             <button onClick={() => { setShowMovieList((pv) => !pv) }} className={`text-lg italic hover:text-black ${showMovieList ? "text-black" : "text-white"} transition font-extrabold`}>
               Movies

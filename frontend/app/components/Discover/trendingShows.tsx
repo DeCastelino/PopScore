@@ -5,13 +5,13 @@ import axios from "axios";
 import type { TmdbMovieResult } from "./types";
 import ScrollListView from "../ScrollListView";
 
-const TrendingMovies = () => {
+const TrendingShows = () => {
 
-    const [trendingMovies, setTrendingMovies] = useState<TmdbMovieResult[]>([]);
+    const [trendingShows, setTrendingShows] = useState<TmdbMovieResult[]>([]);
 
     useEffect(() => {
-        axios.get('http://localhost:3001/trendingMovies').then((res) => {
-            setTrendingMovies(res.data)
+        axios.get('http://localhost:3001/trendingShows').then((res) => {
+            setTrendingShows(res.data)
 
         }).catch(error => console.error(error)
         )
@@ -19,10 +19,10 @@ const TrendingMovies = () => {
 
     return (
         <div className="md:container px-2">
-            <ScrollListView mediaList={trendingMovies} />
+            <ScrollListView mediaList={trendingShows} />
         </div>
 
     );
 }
 
-export default TrendingMovies;
+export default TrendingShows;

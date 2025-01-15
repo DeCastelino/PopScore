@@ -1,6 +1,4 @@
 import axios from "axios";
-// const run = require("../database/Mongo.database");
-const getMovieByID = async (req, res) => {};
 
 export const trendingMovies = async (req, res) => {
     const options = {
