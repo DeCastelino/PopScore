@@ -2,18 +2,18 @@
 
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { TmdbMovieResult } from "../types/tmdb";
-import MainLayout from "../layouts/MainLayout";
-import Card from "../components/Card";
+import { TmdbMovieResult } from "../../types/tmdb";
+import MainLayout from "../../layouts/MainLayout";
+import Card from "../../components/Card";
 
 
-const Movies = () => {
+const TopRated = () => {
 
     const [trendingMovies, setTrendingMovies] = useState<TmdbMovieResult[]>([]);
     const [pageCount, setPageCount] = useState<number>(1);
 
     useEffect(() => {
-        axios.get('http://localhost:3001/nowPlaying', {
+        axios.get('http://localhost:3001/topRated', {
             params: {
                 page: pageCount
             }
@@ -31,7 +31,7 @@ const Movies = () => {
                 {
                     trendingMovies.map((movie) => {
                         return (
-                            <Card key={movie.id} movie={movie} />
+                            <Card key={movie.id} media={movie} />
                         )
                     })
                 }
@@ -43,4 +43,4 @@ const Movies = () => {
     );
 }
 
-export default Movies;
+export default TopRated;
