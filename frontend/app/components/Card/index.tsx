@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { TmdbMovieResult, TmdbTvResult } from "../Discover/types";
+import { TmdbMovieResult, TmdbTvResult } from "../../types/tmdb";
 
 type ListViewProps = {
     media: (TmdbMovieResult | TmdbTvResult);

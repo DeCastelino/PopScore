@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { TmdbMovieResult } from "../components/Discover/types";
+import { TmdbMovieResult } from "../types/tmdb";
 import MainLayout from "../layouts/MainLayout";
 import Card from "../components/Card";
 

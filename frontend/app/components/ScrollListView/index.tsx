@@ -3,7 +3,7 @@ import { debounce } from 'lodash';
 import { useSpring } from 'react-spring';
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/outline';
 import 'swiper/swiper-bundle.css';
-import { TmdbMovieResult, TmdbTvResult } from "../Discover/types";
+import { TmdbMovieResult, TmdbTvResult } from "../../types/tmdb";
 import Card from "../Card";
 
 

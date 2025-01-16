@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import axios from "axios";
-import type { TmdbMovieResult } from "./types";
+import type { TmdbMovieResult } from "../../types/tmdb";
 import ScrollListView from "../ScrollListView";
 
 const TrendingMovies = () => {
