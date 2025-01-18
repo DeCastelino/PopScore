@@ -40,6 +40,63 @@ export const nowPlaying = async (req, res) => {
         });
 };
 
+export const popularMovies = async (req, res) => {
+    const options = {
+        method: "GET",
+        url: `https://api.themoviedb.org/3/movie/popular?language=en-US&page=${req.query.page}`,
+        headers: {
+            accept: "application/json",
+            Authorization: process.env.TMDB_API,
+        },
+    };
+
+    axios
+        .request(options)
+        .then((response) => {
+            return res.status(200).json(response.data.results);
+        })
+        .catch((err) => {
+            return res.status(401).json(err);
+        });
+};
+export const topRatedMovies = async (req, res) => {
+    const options = {
+        method: "GET",
+        url: `https://api.themoviedb.org/3/movie/top_rated?language=en-US&page=${req.query.page}`,
+        headers: {
+            accept: "application/json",
+            Authorization: process.env.TMDB_API,
+        },
+    };
+
+    axios
+        .request(options)
+        .then((response) => {
+            return res.status(200).json(response.data.results);
+        })
+        .catch((err) => {
+            return res.status(401).json(err);
+        });
+};
+export const upcomingMovies = async (req, res) => {
+    const options = {
+        method: "GET",
+        url: `https://api.themoviedb.org/3/movie/upcoming?language=en-US&page=${req.query.page}`,
+        headers: {
+            accept: "application/json",
+            Authorization: process.env.TMDB_API,
+        },
+    };
+
+    axios
+        .request(options)
+        .then((response) => {
+            return res.status(200).json(response.data.results);
+        })
+        .catch((err) => {
+            return res.status(401).json(err);
+        });
+};
 export const allMovies = async (req, res) => {
     const options = {
         method: "GET",

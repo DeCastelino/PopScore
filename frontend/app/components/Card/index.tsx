@@ -13,7 +13,7 @@ const Card = ({ media }: ListViewProps) => {
     return (
         <Link href={media.media_type == "movie" ? `/movies/${media.id}` : `/shows/${media.id}`}>
             <div className="">
-                <div className="relative w-72 rounded-lg overflow-hidden bg-transparent">
+                <div className="relative w-64 rounded-lg overflow-hidden bg-transparent">
                     {/* <div className="absolute left-0 right-0 h-full bg-gradient-to-b from-transparent to-black"></div> */}
                     <img src={posterUrl} alt="" className="object-fill rounded-2xl" />
                     <div className="pt-2 pl-2 text-white">

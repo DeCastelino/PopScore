@@ -37,10 +37,10 @@ const Navbar = () => {
           {movieList && (
             <div className="top-full pt-4 pb-1 w-48">
               <ul className="space-y-2">
-                <li><Link href='movies/now-playing' className="font-bold text-white hover:text-black">Now Playing</Link></li>
-                <li><Link href='movies/popular' className="font-bold text-white hover:text-black">Popular</Link></li>
-                <li><Link href='movies/top-rated' className="font-bold text-white hover:text-black">Top Rated</Link></li>
-                <li><Link href='movies/upcoming' className="font-bold text-white hover:text-black">Upcoming</Link></li>
+                <li><Link href='/movies/now-playing' className="font-bold text-white hover:text-black">Now Playing</Link></li>
+                <li><Link href='/movies/popular' className="font-bold text-white hover:text-black">Popular</Link></li>
+                <li><Link href='/movies/top-rated' className="font-bold text-white hover:text-black">Top Rated</Link></li>
+                <li><Link href='/movies/upcoming' className="font-bold text-white hover:text-black">Upcoming</Link></li>
                 <li><Link href='/movies/all' className="font-bold text-white hover:text-black">All Movies</Link></li>
               </ul>
             </div>
@@ -49,10 +49,10 @@ const Navbar = () => {
           {showsList && (
             <div className="top-full pt-4 pb-1 w-48">
               <ul className="space-y-2">
-                <li><Link href='shows/popular' className="font-bold text-white hover:text-black">Popular</Link></li>
-                <li><Link href='shows/airing-today' className="font-bold text-white hover:text-black">Airing Today</Link></li>
-                <li><Link href='shows/on-tv' className="font-bold text-white hover:text-black">On TV</Link></li>
-                <li><Link href='shows/top-rated' className="font-bold text-white hover:text-black">Top Rated</Link></li>
+                <li><Link href='/shows/popular' className="font-bold text-white hover:text-black">Popular</Link></li>
+                <li><Link href='/shows/airing-today' className="font-bold text-white hover:text-black">Airing Today</Link></li>
+                <li><Link href='/shows/on-tv' className="font-bold text-white hover:text-black">On TV</Link></li>
+                <li><Link href='/shows/top-rated' className="font-bold text-white hover:text-black">Top Rated</Link></li>
                 <li><Link href='/shows/all' className="font-bold text-white hover:text-black">All Shows</Link></li>
               </ul>
             </div>

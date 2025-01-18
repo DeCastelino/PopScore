@@ -18,7 +18,7 @@ const TrendingMovies = () => {
     }, [])
 
     return (
-        <div className="md:container px-2">
+        <div className="md:container">
             <ScrollListView mediaList={trendingMovies} />
         </div>
 
