@@ -11,6 +11,10 @@ router.get("/movies/top-rated", movieController.topRatedMovies);
 router.get("/movies/upcoming", movieController.upcomingMovies);
 
 // get routes (shwos)
-router.get("/trendingShows", showController.trendingShows);
+router.get("/shows/popular", showController.popularShows);
+router.get("/shows/airing-today", showController.showsAiringToday);
+router.get("/shows/on-air", showController.showsOnAir);
+router.get("/shows/top-rated", showController.topRatedShows);
+router.get("/shows/all", showController.allShows);
 
 module.exports = router;
