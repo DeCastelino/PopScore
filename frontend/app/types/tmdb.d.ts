@@ -127,7 +127,7 @@ export interface TmdbExternalIds {
   twitter_id?: string;
 }
 
-export interface TmdbProductionCompany {
+export type TmdbProductionCompany = {
   id: number;
   logo_path?: string;
   name: string;
@@ -135,9 +135,9 @@ export interface TmdbProductionCompany {
   homepage?: string;
   headquarters?: string;
   description?: string;
-}
+};
 
-export interface TmdbMovieDetails {
+export type TmdbMovieDetails = {
   id: number;
   imdb_id?: string;
   adult: boolean;
@@ -191,7 +191,7 @@ export interface TmdbMovieDetails {
   keywords: {
     keywords: TmdbKeyword[];
   };
-}
+};
 
 export interface TmdbVideo {
   id: string;
@@ -317,9 +317,9 @@ export interface TmdbRating {
   rating: string;
 }
 
-export interface TmdbMovieReleaseResult {
+export type TmdbMovieReleaseResult = {
   results: TmdbRelease[];
-}
+};
 
 export interface TmdbRelease extends TmdbRating {
   release_dates: {
