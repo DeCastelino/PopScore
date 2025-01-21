@@ -59,6 +59,7 @@ export const popularMovies = async (req, res) => {
             return res.status(401).json(err);
         });
 };
+
 export const topRatedMovies = async (req, res) => {
     const options = {
         method: "GET",
@@ -78,6 +79,7 @@ export const topRatedMovies = async (req, res) => {
             return res.status(401).json(err);
         });
 };
+
 export const upcomingMovies = async (req, res) => {
     const options = {
         method: "GET",
@@ -97,6 +99,7 @@ export const upcomingMovies = async (req, res) => {
             return res.status(401).json(err);
         });
 };
+
 export const allMovies = async (req, res) => {
     const options = {
         method: "GET",
@@ -111,6 +114,27 @@ export const allMovies = async (req, res) => {
         .request(options)
         .then((response) => {
             return res.status(200).json(response.data.results);
+        })
+        .catch((err) => {
+            return res.status(401).json(err);
+        });
+};
+export const getMovieByID = async (req, res) => {
+    const options = {
+        method: "GET",
+        url: `https://api.themoviedb.org/3/movie/${req.query.movieID}?language=en-US`,
+        headers: {
+            accept: "application/json",
+            Authorization: process.env.TMDB_API,
+        },
+    };
+
+    axios
+        .request(options)
+        .then((response) => {
+            console.log(response.data);
+
+            return res.status(200).json(response.data);
         })
         .catch((err) => {
             return res.status(401).json(err);

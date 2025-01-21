@@ -9,6 +9,7 @@ router.get("/now-playing", movieController.nowPlaying);
 router.get("/popular-movies", movieController.popularMovies);
 router.get("/movies/top-rated", movieController.topRatedMovies);
 router.get("/movies/upcoming", movieController.upcomingMovies);
+router.get("/getMovieByID", movieController.getMovieByID);
 
 // get routes (shwos)
 router.get("/shows/popular", showController.popularShows);
