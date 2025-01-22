@@ -1,10 +1,15 @@
 import Navbar from "../components/Navbar";
-import { ChildrenProps } from "../types";
 import "../styles/globals.css";
+import React from "react";
+
+type ChildrenProps = {
+  children: React.ReactNode
+}
+
 const MainLayout = ({ children }: ChildrenProps) => {
   return (
     //background
-    <div className="realtive">
+    <div className="relative">
       <div className="fixed h-full w-screen min-h-screen bg-black">
         {/* foreground */}
         <div className="right-25 top-25 absolute h-96 w-96 rounded-full bg-orange-800 blur-[300px]"></div>

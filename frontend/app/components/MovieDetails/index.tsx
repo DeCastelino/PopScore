@@ -29,7 +29,10 @@ const MovieDetails = ({ movieID }: MovieIDProps) => {
 
     return (
         <MainLayout>
-            <div><img src={movieDetails?.backdrop_path ? `${baseImageUrl}${movieDetails.backdrop_path}` : "/placeholder-image.jpg"} alt="" className="object-fill" /></div>
+            <div className="h-2/3 w-full">
+                <div className="absolute left-0 right-0 h-full bg-gradient-to-b from-transparent to-black"></div>
+                <img src={movieDetails?.backdrop_path ? `${baseImageUrl}${movieDetails.backdrop_path}` : "/placeholder-image.jpg"} alt="" className="h-2/3 w-full bg-cover bg-center" />
+            </div>
         </MainLayout>
     );
 }
