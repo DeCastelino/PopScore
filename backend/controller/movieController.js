@@ -132,8 +132,6 @@ export const getMovieByID = async (req, res) => {
     axios
         .request(options)
         .then((response) => {
-            console.log(response.data);
-
             return res.status(200).json(response.data);
         })
         .catch((err) => {

@@ -12,7 +12,7 @@ type MovieIDProps = {
 const MovieDetails = ({ movieID }: MovieIDProps) => {
 
     const [movieDetails, setMovieDetails] = useState<TmdbMovieDetails>();
-    const baseImageUrl = "https://image.tmdb.org/t/p/w500"; // TMDB base URL for images
+    const baseImageUrl = "https://image.tmdb.org/t/p/original"; // TMDB base URL for images
 
     useEffect(() => {
         axios.get('http://localhost:3001/getMovieByID', {
@@ -29,9 +29,13 @@ const MovieDetails = ({ movieID }: MovieIDProps) => {
 
     return (
         <MainLayout>
-            <div className="h-2/3 w-full">
-                <div className="absolute left-0 right-0 h-full bg-gradient-to-b from-transparent to-black"></div>
-                <img src={movieDetails?.backdrop_path ? `${baseImageUrl}${movieDetails.backdrop_path}` : "/placeholder-image.jpg"} alt="" className="h-2/3 w-full bg-cover bg-center" />
+            <div className="flex">
+                {/* Movie Poster */}
+                <img src={movieDetails?.poster_path ? `${baseImageUrl}${movieDetails.poster_path}` : "/placeholder-image.jpg"} alt="" className="w-1/3 object-cover rounded-3xl" />
+                {/* Movie Details */}
+                <div className="text-white ml-32">
+                    <h1>{movieDetails?.title}</h1>
+                </div>
             </div>
         </MainLayout>
     );
