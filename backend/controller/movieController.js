@@ -138,3 +138,22 @@ export const getMovieByID = async (req, res) => {
             return res.status(401).json(err);
         });
 };
+export const getCastByMovieID = async (req, res) => {
+    const options = {
+        method: "GET",
+        url: `https://api.themoviedb.org/3/movie/${req.query.movieID}/credits?language=en-US`,
+        headers: {
+            accept: "application/json",
+            Authorization: process.env.TMDB_API,
+        },
+    };
+
+    axios
+        .request(options)
+        .then((response) => {
+            return res.status(200).json(response.data.cast);
+        })
+        .catch((err) => {
+            return res.status(401).json(err);
+        });
+};

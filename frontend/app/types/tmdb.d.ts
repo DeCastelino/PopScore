@@ -87,7 +87,7 @@ export interface TmdbExternalIdResponse {
   person_results: TmdbPersonResult[];
 }
 
-export interface TmdbCreditCast {
+export type TmdbCreditCast = {
   cast_id: number;
   character: string;
   credit_id: string;
@@ -96,7 +96,7 @@ export interface TmdbCreditCast {
   name: string;
   order: number;
   profile_path?: string;
-}
+};
 
 export interface TmdbAggregateCreditCast extends TmdbCreditCast {
   roles: {
