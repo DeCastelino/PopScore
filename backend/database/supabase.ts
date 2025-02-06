@@ -12,4 +12,4 @@ const supabaseAnonKey =
         throw new Error("SUPABASE_ANON_KEY is not defined");
     })();
 
-const supabase = createClient(supabaseUrl, supabaseAnonKey);
+export const supabase = createClient(supabaseUrl, supabaseAnonKey);
