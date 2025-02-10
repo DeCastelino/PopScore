@@ -34,8 +34,18 @@ export const login = async (req, res) => {
 
     try {
         const hashedUserID = await bcrypt.hash(userID, SALT_ROUNDS);
-        return res.status(200).json({ userID, hashedUserID });
     } catch (err) {
         return res.status(401).json(err);
     }
+    try {
+        const { data, error } = await supabase.auth.signInWithPassword({
+            email: req.email,
+            password: req.password,
+        });
+        console.log("DATA: ", data);
+    } catch (error) {
+        return res.status(401).json(error);
+    }
+
+    // return res.status(200).json({ userID, hashedUserID });
 };
