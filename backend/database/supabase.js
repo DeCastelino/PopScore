@@ -12,4 +12,10 @@ const supabaseAnonKey =
         throw new Error("SUPABASE_ANON_KEY is not defined");
     })();
 
-export const supabase = createClient(supabaseUrl, supabaseAnonKey);
+export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
+    auth: {
+        persistSession: true, // The SDK will keep the auth session even after a page refresh.
+        autoRefreshToken: true, // The SDK will automatically refresh the auth token if it's getting close to expiring.
+        detectSessionInUrl: false,
+    },
+});

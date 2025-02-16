@@ -1,6 +1,7 @@
 const router = require("express").Router();
 const movieController = require("../controller/movieController");
 const showController = require("../controller/showController");
+const userController = require("../controller/userController");
 
 //get routes (movies)
 router.get("/movies/all", movieController.allMovies);
@@ -18,5 +19,11 @@ router.get("/shows/airing-today", showController.showsAiringToday);
 router.get("/shows/on-air", showController.showsOnAir);
 router.get("/shows/top-rated", showController.topRatedShows);
 router.get("/shows/all", showController.allShows);
+
+// user routes
+
+//get routes
+router.post("/signup", userController.register);
+router.get("/login", userController.login);
 
 module.exports = router;
