@@ -41,6 +41,10 @@ const MovieDetails = ({ movieID }: MovieIDProps) => {
                 {/* Movie Details */}
                 <div className="text-white ml-32">
                     <h1 className="text-4xl font-semibold pb-2">{movieDetails?.title}</h1>
+                    <div className="flex gap-x-5 pb-2">
+                        <p>{movieDetails?.release_date.slice(0, 4)}</p>
+                        <p>{movieDetails?.runtime} minutes</p>
+                    </div>
                     <div className="flex gap-5 pb-8">
                         {movieDetails?.genres.map((genre, index) => (
                             <h1 key={index} className="italic text-gray-400">{genre.name}</h1>
